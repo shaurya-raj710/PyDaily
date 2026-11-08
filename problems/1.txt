@@ -1,0 +1,30 @@
+36. Courier Delivery Charge
+A courier company decides the delivery charge of a parcel in two steps.
+
+Step 1 — Base charge
+The delivery zone is given as a number: 1 for local, 2 for city and 3 for national. The weight of the parcel is given in whole kilograms. First find the zone, then check the rules of that zone from top to bottom and use the first rule that is true.
+
+Zone is local (1)
+weight is 2 or less → base charge is 40
+otherwise, if weight is 5 or less → base charge is 70
+otherwise → base charge is 100
+Zone is city (2)
+weight is 1 or less → base charge is 60
+otherwise → base charge is 110
+Zone is national (3)
+weight is 1 or less → base charge is 120
+otherwise, if weight is 3 or less → base charge is 200
+otherwise, if weight is 10 or less → base charge is 350
+otherwise → base charge is 500
+Step 2 — Express delivery
+If the customer chose express delivery, add an extra charge that depends on the zone: 30 for local, 50 for city and 100 for national. Otherwise, add nothing.
+
+Given the details of a parcel, find the base charge and the final charge that has to be paid.
+
+Input Format
+Line 1 contains zone (1, 2 or 3), the delivery zone.
+Line 2 contains weight, the weight of the parcel in kg.
+Line 3 contains express (0 or 1): 1 if express delivery is chosen and 0 if not.
+
+Output Format
+Print two lines. On the first line print the base charge (from Step 1). On the second line print the final charge to be paid after Step 2.
