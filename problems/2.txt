@@ -1,0 +1,25 @@
+34. Daily Steps Tracker
+Problem Statement
+A fitness band records how many steps a student walks every day. Read the daily step goal (a positive integer) from the first line. After that, read the steps of each day, one integer per line, until the value -1 is read. The value -1 is not a day; it only means that there is no more data. At least one day is given before the -1.
+
+A day meets the goal if its steps are equal to or more than the goal.
+
+For each day print a line in the form:
+
+Day : steps - Goal met
+
+Day : steps - Goal missed
+
+After the -1 is read, print two more lines: how many days met the goal out of all the days, and the best day (the day with the most steps). If two days have the same highest steps, the earlier day is the best day.
+
+Days goal met: out of
+
+Best day: Day with steps
+
+Input Format
+Line 1 contains goal.
+The next lines contain the steps of each day, one integer per line.
+The last line contains -1, which ends the input.
+
+Output Format
+Print one line for each day, followed by the two summary lines described above.
