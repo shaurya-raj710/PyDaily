@@ -1,0 +1,13 @@
+Problem Statement
+You are given a matrix with R rows and C columns. The border of the matrix consists of all the elements that lie in the first row, in the last row, in the first column or in the last column. The other elements (the ones that are surrounded by neighbours on all four sides) are called the inside of the matrix.
+
+Find the sum of all the border elements. An element that belongs to two of these lines (for example, a corner) must be added only once.
+
+If the matrix has only one row, one column, two rows or two columns, then every element is on the border.
+
+Input Format
+The first line contains two integers R and C: the number of rows and the number of columns.
+Each of the next R lines contains C integers separated by single spaces: one row of the matrix.
+
+Output Format
+Print one integer: the sum of the border elements.

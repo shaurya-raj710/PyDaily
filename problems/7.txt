@@ -1,0 +1,6 @@
+You are given a matrix with R rows and C columns and an integer K. 
+Count how many elements of the matrix are divisible by K, that is, how many elements leave remainder 0 when they are divided by K.
+
+
+Remember that 0 is divisible by every number, and that negative numbers can be divisible too (for example, −12 is divisible by 4).
+
