@@ -1,0 +1,4 @@
+Read a number N.
+ While the number has more than one digit, replace it by the sum of its digits and print this step as <old> -> <new>. 
+ When a single digit is left, print it and the number of steps that were needed.
+
