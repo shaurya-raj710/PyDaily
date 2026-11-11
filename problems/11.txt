@@ -1,0 +1,16 @@
+Given a positive integer 
+n
+n, print the number formed by strictly reversing its digits.
+
+Any leading zeros that appear in the reversed number must be dropped (i.e., the result must be printed as a standard integer without leading zeros).
+
+Input Format
+The input contains a single integer 
+n
+n.
+
+Output Format
+Print a single integer representing 
+n
+n with its digits reversed.
+
