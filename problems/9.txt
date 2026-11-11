@@ -1,0 +1,7 @@
+Read the starting balance. 
+Then read transactions one per line: a positive number is a deposit (add it to the balance), a negative number is a withdrawal of that many rupees, and 0 closes the session.
+ A withdrawal is allowed only if the balance is enough (the balance may become exactly 0).
+  Otherwise the withdrawal is declined and the balance does not change. 
+  As soon as the third declined withdrawal happens, the card is blocked and the ATM stops reading; every remaining line is ignored. 
+  The input always ends with a 0 line.
+
