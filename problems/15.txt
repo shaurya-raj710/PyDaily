@@ -1,0 +1,11 @@
+Vasya wants to determine the gender of an unknown user based on their username. The rule is:
+
+If the number of distinct characters in the username is odd, print IGNORE HIM!
+If the number of distinct characters is even, print CHAT WITH HER!
+Determine the appropriate message to print based on the given username.
+
+Input Format
+The input consists of a single string representing the username. The string contains only lowercase English letters.
+
+Output Format
+Print IGNORE HIM! or CHAT WITH HER! (including the exclamation mark) based on the parity of the distinct character count.
