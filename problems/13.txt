@@ -1,0 +1,8 @@
+Read an integer n. Print an n × n grid of numbers. The number in row i and column j (both counted from 1) is the larger of i and j.
+
+For n = 4, the grid looks like this:
+
+1 2 3 4
+2 2 3 4
+3 3 3 4
+4 4 4 4

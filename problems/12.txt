@@ -1,0 +1,8 @@
+A delivery app logs GPS pings as (x, y) integer pairs;
+ the same location can be logged more than once.
+
+Read n coordinate pairs, store each one as a tuple,
+ put them all in a set to drop duplicates,
+  then print the number of unique locations followed by each unique location on its own line,
+   in sorted order.
+
