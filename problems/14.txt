@@ -1,0 +1,9 @@
+Vasya has four horseshoes, one on each hoof. Each horseshoe has a color represented by an integer. Vasya wants all four horseshoes to be different colors.
+
+Find the minimum number of horseshoes that need to be recolored to achieve this.
+
+Input Format
+The input consists of four space-separated integers on a single line, representing the colors of the four horseshoes.
+
+Output Format
+Print a single integer representing the minimum number of horseshoes Vasya needs to recolor.
