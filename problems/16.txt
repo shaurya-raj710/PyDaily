@@ -1,0 +1,35 @@
+Print a right-aligned staircase of height 
+n
+n using # (hash) characters and spaces.
+
+Row 
+1
+1 (the top row) has 
+1
+1 hash and 
+n
+−
+1
+n−1 leading spaces. Row 
+2
+2 has 
+2
+2 hashes and 
+n
+−
+2
+n−2 leading spaces. This pattern continues until Row 
+n
+n (the bottom row), which has 
+n
+n hashes and no leading spaces.
+
+Input Format
+The input contains a single integer 
+n
+n, representing the height and width of the staircase.
+
+Output Format
+Print exactly 
+n
+n lines forming the right-aligned staircase.
