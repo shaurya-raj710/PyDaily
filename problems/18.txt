@@ -1,0 +1,30 @@
+Problem Statement
+Given a non-negative integer 
+n
+n, repeatedly apply the following rule until 
+n
+n becomes 
+0
+0:
+
+If 
+n
+n is even, divide it by 
+2
+2.
+If 
+n
+n is odd, subtract 
+1
+1.
+Count and output the total number of steps required to reduce the integer to zero.
+
+Input Format
+The input contains a single integer 
+n
+n.
+
+Output Format
+Print a single integer representing the total number of steps taken to reach 
+0
+0.
