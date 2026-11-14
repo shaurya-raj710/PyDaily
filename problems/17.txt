@@ -1,0 +1,15 @@
+11. First and Last Digit
+Problem Statement
+Given a positive integer 
+n
+n, calculate and print the sum of its first (leftmost) and last (rightmost) digits.
+
+Input Format
+The input contains a single integer 
+n
+n.
+
+Output Format
+Print a single integer representing the sum of the first and last digits of 
+n
+n.
