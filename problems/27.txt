@@ -1,0 +1,11 @@
+33. Snail in the Well
+Problem Statement
+A snail is at the bottom of a well. Read three positive integers, one per line: depth (the depth of the well in meters), up (the meters the snail climbs during the day) and down (the meters it slips back during the night). It is given that up is more than down.
+
+Every day the snail first climbs up meters. If it reaches the top (its height is equal to or more than the depth), it escapes at once and does not slip. Otherwise, during the night it slips down down meters.
+
+Use a while loop to repeat this day by day. For every day on which the snail does not escape, print the day number and the height after the slip, in the form:
+
+Day <d>: Height = <h>
+
+On the day on which the snail reaches the top, print the line below instead, and then stop and print how many days it took:
