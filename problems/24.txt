@@ -1,0 +1,23 @@
+35. Pocket Money Jar
+A student wants to buy a bicycle. Read three positive integers, one per line: price (the price of the bicycle), save (the money the student puts into a jar at the start of every month) and spend (the money the student spends from the jar during the rest of the month). It is given that save is more than spend.
+
+Every month the student first puts save rupees into the jar. If the money in the jar is now equal to or more than the price, the student buys the bicycle at once and does not spend anything that month. Otherwise, during the rest of the month the student spends spend rupees from the jar.
+
+Use a while loop to repeat this month by month.
+
+For every month in which the bicycle is not bought, print the month number and the money left in the jar after spending, in the form:
+
+Month : Balance =
+
+In the month in which the student can buy the bicycle, print the line below instead, and then stop and print how many months it took:
+
+Month : Can buy the bicycle
+
+Bought in month(s).
+
+Input Format
+Line 1 contains price.
+Line 2 contains save.
+Line 3 contains spend.
+Output Format
+Print the lines described above, one per month, and then the final line.
