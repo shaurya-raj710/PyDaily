@@ -1,0 +1,26 @@
+38. Cinema Ticket Price
+A cinema decides the price of a ticket in two steps.
+
+Step 1 — Base price
+The seat class is given as a number: 1 for Silver, 2 for Gold and 3 for Platinum. The show slot is also a number: 1 for morning, 2 for afternoon and 3 for evening. First find the seat class, then check the rules of that class from top to bottom and use the first rule that is true.
+
+Seat is Silver (1)
+slot is 1 → base price is 100
+otherwise, if slot is 2 → base price is 120
+otherwise → base price is 150
+Seat is Gold (2)
+slot is 1 → base price is 150
+otherwise, if slot is 2 → base price is 180
+otherwise → base price is 220
+Seat is Platinum (3)
+slot is 3 → base price is 300
+otherwise → base price is 250
+Step 2 — Student discount
+If the viewer is a student and the show is in the morning or the afternoon (slot is 1 or 2), subtract 30 from the base price. Otherwise, subtract nothing.
+
+Given the details of a ticket, find the base price and the final price that has to be paid.
+
+Input Format
+Line 1 contains seat (1, 2 or 3), the seat class.
+Line 2 contains slot (1, 2 or 3), the show slot.
+Line 3 contains is_student (0 or 1): 1 if the viewer is a student and 0 if not.
