@@ -1,0 +1,11 @@
+5.
+Binary to Decimal Round Trip
+Coding
+easy
+binary
+bits
+Given a binary string (containing only the digits 0 and 1), convert it to its decimal value.
+
+Read one line containing a binary string and print its decimal equivalent as an integer.
+
+
