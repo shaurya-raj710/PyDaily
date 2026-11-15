@@ -1,0 +1,8 @@
+40. Shop Bill with GST
+A shop adds 18% GST on the price of the items a customer buys. Read two integers, one per line: price (the price of one item) and quantity (the number of items bought).
+
+The subtotal is price × quantity. The GST amount is 18% of the subtotal; the shop ignores the paise, so use integer division and drop the fractional part. The total is the subtotal plus the GST amount.
+
+Input Format
+Line 1 contains price.
+Line 2 contains quantity.
