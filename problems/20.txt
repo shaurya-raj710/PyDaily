@@ -1,0 +1,15 @@
+87. Banned Username Checker
+A platform keeps a set of banned usernames so it can reject a sign-up instantly instead of scanning a whole list.
+
+Read n banned usernames, then q usernames someone is trying to register with. For each username, print BANNED if it is on the banned list; otherwise, print OK.
+
+Input Format
+The first line contains an integer n.
+The second line contains n space-separated banned usernames.
+The third line contains an integer q.
+The fourth line contains q space-separated usernames to check.
+Output Format
+Print q lines:
+
+Print BANNED if the username appears in the banned list.
+Print OK otherwise.
