@@ -1,0 +1,10 @@
+32. Stopwatch Converter
+Problem Statement
+A stopwatch shows the time only in seconds. Read a single integer total_seconds (the time shown on the stopwatch) and convert it into hours, minutes and seconds.
+
+Input Format
+A single integer total_seconds.
+Output Format
+Print one line in the form:
+
+Hours: H, Minutes: M, Seconds: S
