@@ -1,0 +1,9 @@
+Given a sentence containing space-separated words, print the longest word.
+
+If there is a tie for the longest length, print the word that appears first in the sentence.
+
+Input Format
+A single line containing the sentence with space-separated words.
+
+Output Format
+Print the longest word in the sentence.
