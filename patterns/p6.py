@@ -1,6 +1,6 @@
 #solid equilateral triangle
 
-n = 5
+n = int(input())
 
 i = 1
 while(i<=n):
