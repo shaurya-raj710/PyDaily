@@ -11,7 +11,7 @@ while (i<=n):
 
         j+=1
 
-    
+    x=n
     while(x>=1):
         print("#",end="")
 
