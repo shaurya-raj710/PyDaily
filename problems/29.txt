@@ -1,0 +1,19 @@
+4. Sereja and Dima
+Problem Statement
+Sereja and Dima are playing a card game. There are 
+n
+n cards laid out in a row, each with a positive integer value. The players alternate turns, and Sereja always goes first.
+
+During a turn, the current player takes exactly one card from either the left end or the right end of the remaining row of cards. Each player plays optimally to maximize their score, meaning they will always choose the card with the larger value (in the event of a tie, they take the left card). The value of the chosen card is added to the player's total score.
+
+Calculate and output the final scores for both players after all cards have been taken.
+
+Input Format
+The first line contains a single integer 
+n
+n, representing the total number of cards. The second line contains 
+n
+n space-separated integers, representing the values of the cards from left to right.
+
+Output Format
+Print two space-separated integers: Sereja's final score followed by Dima's final score.
