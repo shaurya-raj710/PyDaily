@@ -1,8 +1,6 @@
 #Middle Item of Anything
 
 def middle_item(seq):
-    """Return the middle item of seq."""
-    # your code here
 
     m = len(seq)
     n = m-1
