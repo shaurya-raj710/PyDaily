@@ -25,6 +25,15 @@ while True:
 
         balance = balance+ depo
 
+        print("do you want to continue??")
+        print("click :\n 1. Continue\n2. Exit")
+        inp = int(input())
+
+        if inp==2:
+            break
+
+
+
     elif val ==3:
 
         print("enter the amt you want to take out")
@@ -38,5 +47,12 @@ while True:
         else :
 
             balance= balance - withd
+
+        print("do you want to continue??")
+        print("click :\n 1. Continue\n2. Exit")
+        inp = int(input())
+        
+        if inp==2:
+            break
 
         
